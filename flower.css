@@ -1177,6 +1177,9 @@ display: block;
 	.image-container {
 		top: 52% !important;
 	}
+	.gift-box {
+	  bottom: 10%;
+	}
 }
 
 @media (max-width: 768px) and (min-width: 481px) {
@@ -1208,6 +1211,9 @@ display: block;
 	#birthday-name {
 		font-size: 30px !important;
   		top: 75% !important; /* sedikit turun dari teks utama */
+	}
+	.gift-box {
+	  bottom: 5%;
 	}
 }
 
@@ -1275,4 +1281,5 @@ img {
   opacity: 0.8;
   transform: translate(-50%, -50%) scale(1.05);
 }
+
 
