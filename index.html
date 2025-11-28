@@ -9,6 +9,7 @@
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 
 <body class="not-loaded">
+  <audio id="birthdaySong" src="./Sal Priadi - Serta Mulia (Official Lyric Video) [q6on6wvbvwk]_1_2.mp3" preload="auto"></audio>
   <div class="night"></div>
   <div class="flowers">
     <div class="flower flower--1">
@@ -397,6 +398,12 @@ onload = () => {
       const birthdayText = document.getElementById("birthday-text");
       const birthdayName = document.getElementById("birthday-name");
       const imageContainer = document.querySelector(".image-container");
+
+      if (audio == false) {
+        audio = true;
+        document.getElementById('birthdaySong').play();
+        document.getElementById('birthdaySong').currentTime += 12;
+      };
 
       setTimeout(() => birthdayText.classList.add("show"), 2000);
       setTimeout(() => birthdayName.classList.add("show"), 2200);
