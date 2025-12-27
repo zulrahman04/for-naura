@@ -4,6 +4,10 @@
   I've taken some inspiration by Yup Nguyen's Artwork: https://dribbble.com/shots/11096994-Virtual-Garden.
   Made with Pure CSS & ♥
 -->
+  <head>
+    <title>NAURA THE DAYS</title>
+    <link rel="icon" href="./image-removebg-preview.png" type="image/x-icon">
+  </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="./flower.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
@@ -323,19 +327,19 @@
       <h4 class="color1">Happy Birthday</h4>
       <h2 class="color2 margin"></h2> <br>
       <h6 class="color2 margin"></h6>
-        <p>Selamat atas bertambahnya usia dan berkurangnya garansi pabrik. 😂</p><br>
-        <p>Jangan sedih kalau dibilang tua. Tua itu pasti, dewasa itu opsional. Jadi santai aja, kayak cicilan yang nggak pernah lunas. 💸</p><br>
-        <p>Doa terbaik: semoga rezeki deras kayak hujan pas mau jemuran, masalah tipis kayak alis yang kebanyakan dicukur, dan touring enggak cuma wacana. 🤌</p> <br>
-        <p class="text-right">untuk Seseorang</p><br>
-        <p class="text-right">Dari barusan gua bikinnya</p>
+        <p>Barakallah fii umrik yang ke-25 ya! (Kalo gasalah hehe)</p><br>
+        <p>Semoga di usia baru ini, kamu makin tangguh, makin hobi eksplor tempat baru, dan pastinya gak kapok buat terus naik gunung meskipun betis sering mau protes.</p><br>
+        <p>Pokoknya aku doain supaya jatah cuti kamu aman terus, tabungan buat beli perlengkapan outdoor makin tebel, dan pastinya fisik selalu fit buat nanjak. Semoga tahun ini banyak view cerah dan samudra awan yang nungguin kamu di puncak-puncak selanjutnya. Jangan lupa bahagia terus, baik di atas gunung maupun di kehidupan sehari-hari!</p> <br>
+        <p class="text-right">untuk kamu</p><br>
+        <p class="text-right">Dari orang yang kamu kasi madu di basecamp merbabu via thekelan wkwkwk</p>
     </div>
   </div>
   <div id="particles-js"></div>
   <div id="birthday-text">🎂 Happy Birthday! 🎉</div>
-  <div id="birthday-name">Bla Bla Bla</div>
+  <div id="birthday-name">NAURA INSYIRA</div>
 
   <div class="image-container">
-    <img id="birthdayImage" src="./cover.png" alt="Happy Birthday!" />
+    <img id="birthdayImage" src="./IMG_20251227_064601.jpg" alt="Happy Birthday!" />
   </div>
 </body>
 
@@ -351,7 +355,7 @@ onload = () => {
     document.querySelector('.gift-box').classList.add('show');
   }
 
-    let audio = false;
+  let audio = false;
   function openGift() {
     document.querySelector('.gift-box').style.transform = 'translateX(-50%) scale(1) rotateX(90deg)';
 
@@ -403,7 +407,7 @@ onload = () => {
       if (audio == false) {
         audio = true;
         document.getElementById('birthdaySong').play();
-        document.getElementById('birthdaySong').currentTime += 1;
+        //document.getElementById('birthdaySong').currentTime += 12;
       };
 
       setTimeout(() => birthdayText.classList.add("show"), 2000);
@@ -414,7 +418,7 @@ onload = () => {
         card.style.display = "block";
         setTimeout(() => {
           card.style.opacity = "1";
-        }, 10000);
+        }, 15000);
       }, 2800);
     }, 800);
   }
@@ -424,7 +428,4 @@ onload = () => {
 
 
 </script>
-
-
-
 

@@ -1154,7 +1154,7 @@ display: block;
   }
 
   .card .details p {
-    font-size: 13px; /* sedikit diperkecil agar fit */
+    font-size: 10px; /* sedikit diperkecil agar fit */
   }
 
   .card .details h4 {
@@ -1177,9 +1177,6 @@ display: block;
 	.image-container {
 		top: 52% !important;
 	}
-	.gift-box {
-	  bottom: 10%;
-	}
 }
 
 @media (max-width: 768px) and (min-width: 481px) {
@@ -1194,7 +1191,7 @@ display: block;
   }
 
   .card .details p {
-    font-size: 20px; /* sedikit diperkecil agar fit */
+    font-size: 14px; /* sedikit diperkecil agar fit */
   }
 
   .card .details h4 {
@@ -1211,9 +1208,6 @@ display: block;
 	#birthday-name {
 		font-size: 30px !important;
   		top: 75% !important; /* sedikit turun dari teks utama */
-	}
-	.gift-box {
-	  bottom: 5%;
 	}
 }
 
@@ -1259,7 +1253,7 @@ display: block;
 }
 
 .image-container {
-  /*filter: blur(1px);*/
+  filter: blur(0.5px);
   opacity: 0;
   transition: opacity 1.2s ease-in-out, transform 1.2s;
   display: flex;
@@ -1281,6 +1275,4 @@ img {
   opacity: 0.8;
   transform: translate(-50%, -50%) scale(1.05);
 }
-
-
 
